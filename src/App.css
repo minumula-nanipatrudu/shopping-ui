@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.title {
+  font-size: 1rem;
+}
+.center ul li {
+  display: inline-flex;
+  padding: 0 6px;
+}
+
+.left {
+  flex: 3;
+}
+
+.center {
+  flex: 4;
+}
+
+.search {
+  flex: 2;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.bannerBox img {
+  width: 100%;
+}
+
+.menImages {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.menImages img {
+  width: 100%;
+  width: 136px;
+  height: 160px;
+}
+
+.collectionSection {
+  width: 100%;
+  object-fit: cover;
+}
